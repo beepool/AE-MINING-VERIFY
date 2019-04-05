@@ -151,18 +151,19 @@ POST http://HOST:PORT/v2/key-blocks
 
 ```
 $submitData = array(
-                'beneficiary' => $jobInfo['beneficiary'],
-                'hash' => $blockInfo['hash'],
-                'height' => $jobInfo['height'],
-                'miner' => $jobInfo['miner'],
-                'nonce' => $blockInfo['nonce'],
-                'pow' => $blockInfo['pow'],
-                'prev_hash' => $jobInfo['prev_hash'],
-                'prev_key_hash' => $jobInfo['prev_key_hash'],
-                'state_hash' => $jobInfo['state_hash'],
-                'target' => $jobInfo['target'],
-                'time' => $jobInfo['time'],
-                'version' => $jobInfo['version']
+                'beneficiary' => 'ak_nv5B93FPzRHrGNmMdTDfGdd5xGZvep3MVSpJqzcQmMp59bBCv',
+                'hash' => 'kh_MnKqPJa5Ufw3AoFK9boZVwyuvosnxysZrPyMi7WQAUnukxNdF',
+                'height' => 61252,
+                'miner' => 'ak_2CFBBH56MovGZaKNiXnwNhuxM3ZFYfAdJvty9QRMEpnnXrA62F',
+                'nonce' => 946100507733033697,
+                'pow' => [1560783,19899683,26686884,46248240,67228330,67462610,81845721,82212294,95644328,117214348,131016563,134907685,149152069,167975924,172121090,176628994,181680730,199555343,213336391,236833391,249002949,250003707,253186513,257023444,260854574,283273465,291448562,302932608,334509518,378329704,390835709,399857883,403430292,439781816,449635696,454957446,456197940,456798583,460230294,467496111,517848387,524126360],
+                'prev_hash' => 'mh_2JaucLFSmsKjxBGtiWBrePpRqdYqVbhigJGDvtFaV5H8LyGfF',
+                'prev_key_hash' => 'kh_2Y8bDb2cBzYwoEm1a4FwwVMk2tmWqQ7qhwJho6gEhQj5c627M6',
+                'state_hash' => 'bs_ebUW1svahK2hvTqJgrYZbLXdoZMqWbUYSrBDA7e9pAc32LT6P',
+                'target' => 503666254,
+                'time' => 1554391693687,
+                'version' => 2,
+		'info'=>'cb_Xfbg4g=='
             );
 ```
 

@@ -150,7 +150,7 @@ POST http://HOST:PORT/v2/key-blocks
 提交参数为
 
 ```
-$submitData = array(
+	{
                 'beneficiary' => 'ak_nv5B93FPzRHrGNmMdTDfGdd5xGZvep3MVSpJqzcQmMp59bBCv',
                 'hash' => 'kh_MnKqPJa5Ufw3AoFK9boZVwyuvosnxysZrPyMi7WQAUnukxNdF',
                 'height' => 61252,
@@ -164,7 +164,7 @@ $submitData = array(
                 'time' => 1554391693687,
                 'version' => 2,
 		'info'=>'cb_Xfbg4g=='
-            );
+            }
 ```
 
 我们仅仅需要将nonce，pow两个参数替换为对应的bigint即可，如
